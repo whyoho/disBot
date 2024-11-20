@@ -96,7 +96,7 @@ class Client(discord.Client):
             elif (jackpot >= 900):
                 earnings = random.randint(10, 20)
                 earnSend += f"You unwrap an Otter Pop and {earnings} otters spawn in front of you. It sure is your lucky day!\n\n"
-            # 150 in 1000 chance?  of tripping
+            # 150 in 1000 chance  of tripping
             elif (jackpot >= 750):
                 earnings = random.randint(5, 10)
                 story = random.randint(1, 5)
@@ -111,7 +111,7 @@ class Client(discord.Client):
                 elif (story == 5):
                     earnSend += f"You stop to pet a cat, but when you look up again {earnings} of your otters have disappeared...\n\n"
                 earnings *= -1
-            # 799 in 1000 chance? of earning a tiny amount of otters
+            # 745 in 1000 chance of earning a tiny amount of otters
             else: 
                 earnings = random.randint(1, 5)
                 story = random.randint(1, 5)
